@@ -71,7 +71,7 @@ outputs:
 
 params:
   ui:
-    themeToggle: true
+    showLightDarkModeMenu: true
   taxonomy:
     # set taxonomyCloud = [] to hide taxonomy clouds
     taxonomyCloud: [tags, categories]
