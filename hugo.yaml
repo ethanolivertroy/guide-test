@@ -46,9 +46,9 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Testing Guide
     params:
-      description: A Docsy example site
+      description: Stuff here
 
 markup:
   goldmark:
@@ -107,7 +107,7 @@ params:
   github_repo: https://github.com/ethanolivertroy/guide-test
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/google/docsy
+  github_project_repo: https://github.com/ethanolivertroy/guide-test
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
@@ -117,10 +117,10 @@ params:
   github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
-  gcs_engine_id: d72aa9b2712488cc3
+  # gcs_engine_id: d72aa9b2712488cc3
 
   # Enable Lunr.js offline search
-  offlineSearch: false
+  offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
   prism_syntax_highlighting: false
